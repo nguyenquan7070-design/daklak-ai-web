@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#3a2413"/>
+      <stop offset="100%" stop-color="#17130f"/>
+    </radialGradient>
+    <linearGradient id="medallion" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a33d"/>
+      <stop offset="100%" stop-color="#8a4412"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- sunset arc -->
+  <circle cx="512" cy="360" r="230" fill="url(#medallion)" opacity="0.9"/>
+
+  <!-- mountain silhouette (basalt plateau) -->
+  <path d="M0 620 L220 460 L360 560 L520 380 L680 540 L820 440 L1024 600 L1024 1024 L0 1024 Z" fill="#17130f"/>
+  <path d="M0 660 L240 520 L400 600 L560 440 L740 590 L900 500 L1024 630 L1024 1024 L0 1024 Z" fill="#221c16"/>
+
+  <!-- coffee cup silhouette -->
+  <g transform="translate(512,760)">
+    <path d="M-140 -40 L140 -40 L120 90 Q120 130 80 130 L-80 130 Q-120 130 -120 90 Z" fill="#f5efe6"/>
+    <path d="M120 -10 Q210 -10 210 55 Q210 115 130 115 L128 70 Q160 70 160 50 Q160 30 122 30 Z" fill="#f5efe6"/>
+    <!-- steam -->
+    <path d="M-60 -60 Q-80 -110 -50 -150 Q-20 -190 -40 -230" stroke="#e8a33d" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M20 -60 Q0 -110 30 -150 Q60 -190 40 -230" stroke="#c2601c" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.85"/>
+  </g>
+</svg>

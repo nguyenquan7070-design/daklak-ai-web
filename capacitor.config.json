@@ -1,0 +1,16 @@
+{
+  "appId": "com.daklak.ai",
+  "appName": "Đắk Lắk AI",
+  "webDir": "dist",
+  "backgroundColor": "#17130f",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#17130f"
+  },
+  "ios": {
+    "backgroundColor": "#17130f",
+    "contentInset": "always"
+  }
+}
